@@ -1,0 +1,13 @@
+@use "../abstracts/colors";
+
+.shadow{
+    width: 42rem;
+    height: 10rem;
+    background: colors.$shadow;
+    border-radius: 50%;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: blur(0.5rem);
+}

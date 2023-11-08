@@ -1,0 +1,36 @@
+@use "../abstracts/colors";
+@use "../abstracts/mixins.scss";
+
+.sphere{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    background: linear-gradient(colors.$base,40%,colors.$dark);
+    position: relative;
+    box-shadow: inset 0rem 0rem 2.5rem 0.1rem colors.$shadow;
+
+    &__heart{
+        position: absolute;
+        transform: rotate(45deg);
+        top: 35%;
+        left: 50%;
+    }
+
+    &__block{
+        background: colors.$heart;
+        @include mixins.heart;
+
+        &__second{
+            @include mixins.heart;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            background: colors.$heart;
+        }
+        &__third{
+            @include mixins.heart;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            background: colors.$heart; 
+        }
+    }
+}

@@ -1,0 +1,72 @@
+*, * ::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #ff8080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.sphere3D {
+  position: relative;
+}
+
+.sphere {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background: linear-gradient(#ff4d4d, 40%, #e60000);
+  position: relative;
+  box-shadow: inset 0rem 0rem 2.5rem 0.1rem rgba(0, 0, 0, 0.3);
+}
+.sphere__heart {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 35%;
+  left: 50%;
+}
+.sphere__block {
+  background: #990000;
+  width: 12rem;
+  height: 12rem;
+  position: absolute;
+}
+.sphere__block__second {
+  width: 12rem;
+  height: 12rem;
+  position: absolute;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: #990000;
+}
+.sphere__block__third {
+  width: 12rem;
+  height: 12rem;
+  position: absolute;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #990000;
+}
+
+.shadow {
+  width: 42rem;
+  height: 10rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: blur(0.5rem);
+}
+
+/*# sourceMappingURL=style.css.map */

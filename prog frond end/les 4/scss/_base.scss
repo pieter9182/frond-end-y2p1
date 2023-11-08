@@ -1,0 +1,13 @@
+@use "./abstracts/colors";
+
+body{
+    background: colors.$background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.sphere3D{
+    position: relative;
+}
