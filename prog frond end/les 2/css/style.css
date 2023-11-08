@@ -95,7 +95,7 @@ body {
 .header__figure {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom right, rgba(22, 33, 62, 0.8), 80%, rgba(233, 69, 96, 0.5)), url("../img/achtergrond nederland.jpg"), url("/img/webp/achtergrond-nederland.webp");
+  background: linear-gradient(to bottom right, rgba(22, 33, 62, 0.8), 80%, rgba(233, 69, 96, 0.5)), url("/img/webp/achtergrond-nederland.webp");
   background-position: bottom;
   object-fit: cover;
 }
@@ -144,7 +144,7 @@ body {
 
 .over__figure::after {
   content: "";
-  background: linear-gradient(to bottom right, rgba(22, 33, 62, 0.8), 80%, rgba(233, 69, 96, 0.5)), url("../img/achtergrond nederland.jpg");
+  background: linear-gradient(to bottom right, rgba(22, 33, 62, 0.8), 80%, rgba(233, 69, 96, 0.5)), url("../img/achtergrond nederland.webp");
   height: 100%;
   width: 100%;
   position: absolute;
